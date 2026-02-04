@@ -26,9 +26,8 @@ body {
 }
 
 .nav-links {
-    display: inline;
-    align-items: center;
-    gap: 30px;
+    display: inline-block;
+    color: black;
 }
 
 .nav-links ul {
@@ -42,16 +41,16 @@ body {
     color: #555;
     font-weight: 500;
     transition: 0.5 ease;
+    position: relative;
 }
 
 .nav-links a:hover {
     color: black;
-    border: 0;
 }
 
 .logo {
     margin: 10px auto;
-    text-align: center;
+
 }
 
 .get-started-btn {
@@ -300,3 +299,11 @@ body {
     background: white;
     border-radius: 10px;
 }
+
+.wrapper {
+    display: inline-block;    
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
